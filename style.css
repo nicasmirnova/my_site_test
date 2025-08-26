@@ -1,0 +1,73 @@
+/* Общие настройки */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #fafafa;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Шапка сайта */
+.site-header {
+    background-color: #ffdab9;
+    text-align: center;
+    padding: 2rem 0;
+}
+
+.site-header h1 {
+    font-size: 2em;
+    color: #fff;
+    margin-bottom: 1rem;
+}
+
+.site-header nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    padding: 0;
+}
+
+.site-header nav a {
+    color: white;
+    text-decoration: none;
+    transition: all .3s ease-in-out;
+}
+
+.site-header nav a:hover {
+    transform: scale(1.1);
+}
+
+/* Основная информация */
+#about img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+    margin-top: 1rem;
+}
+
+.course-item {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,.1);
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+/* Контактная информация */
+#contact address {
+    text-align: center;
+    font-style: normal;
+}
+
+/* Футер */
+footer {
+    background-color: #ffdab9;
+    padding: 1rem 0;
+    text-align: center;
+    color: white;
+}
